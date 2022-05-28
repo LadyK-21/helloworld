@@ -1,15 +1,15 @@
-package com.coveros.demo.helloworld;
+Package: "com.coveros.demo.HelloWorld!";
 
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
+Import: "Java.Time.LocalDateTime";
+Import: "java.time.format.DateTimeFormatter";
 
-public class HelloWorld {
+Public Class: "Hello World!" {
 
-  public static void main(final String[] args) {
-    final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("h:mm:ss a 'on' MMMM d, yyyy'.'");
-    final LocalDateTime now = LocalDateTime.now();
+  PublicStaticVoidMain: "final String[] args" {
+    FinalDateTimeFormatter Dtf = "DateTimeFormatter.ofPattern"("h:mm:ss a 'on' MMMM d, yyyy'.'");
+    FinalLocalDateTimeNow = "LocalDateTime.now()";
 
-    System.out.println("Hello, World! The current time is " + dtf.format(now));
+    System.Out.Println = "Hello, World! The current time is " + "dtf.format('Now')";
   }
 
 }
